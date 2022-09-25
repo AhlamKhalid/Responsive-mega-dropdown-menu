@@ -3,7 +3,9 @@
 
 /* custom properties */
 :root {
-  --purple: #2a2c40;
+  --purple-900: #2a2c40;
+  --purple-800: #3e3e57;
+  --purple-700: #44445d;
   --white: #fff;
 }
 
