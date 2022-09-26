@@ -41,7 +41,8 @@ button {
   justify-content: center;
 }
 
-.header .menu-button {
+.header .menu-button,
+.header .close-button {
   position: absolute;
   left: 0;
   /* vertical center */
@@ -49,6 +50,8 @@ button {
   transform: translateY(-50%);
   /* to add space around */
   padding-inline: 20px;
+  /* no space around the icon */
+  display: flex;
 }
 
 .header .logo-link {
