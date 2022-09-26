@@ -21,3 +21,38 @@ body {
   background-color: var(--purple-900);
   color: var(--white);
 }
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* header */
+.header {
+  position: relative;
+  padding: 20px;
+  border-bottom: 1px solid var(--purple-700);
+  display: flex;
+  justify-content: center;
+}
+
+.header .menu-button {
+  position: absolute;
+  left: 0;
+  /* vertical center */
+  top: 50%;
+  transform: translateY(-50%);
+  /* to add space around */
+  padding-inline: 20px;
+}
+
+.header .logo-link {
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--white);
+}
