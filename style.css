@@ -16,6 +16,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: "Mukta", sans-serif;
   background-color: var(--purple-900);
@@ -30,6 +35,10 @@ button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+ul {
+  list-style: none;
 }
 
 /* header */
@@ -58,4 +67,37 @@ button {
   font-weight: 800;
   font-size: 20px;
   color: var(--white);
+}
+
+/* navigation menu */
+.navigation-menu {
+  height: 100%;
+  background-color: #a88787;
+  /* background-color: var(--purple-900); */
+  padding: 24px;
+  position: relative;
+  /* left: -100%; */
+}
+
+.navigation-menu .nav-item {
+  margin-top: 18px;
+}
+
+.navigation-menu .nav-item:first-child {
+  margin-top: 0;
+}
+
+.navigation-menu .explore-btn,
+.navigation-menu .nav-link {
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.navigation-menu .explore-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
