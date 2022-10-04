@@ -87,8 +87,6 @@ ul {
   /* vertical center */
   top: 50%;
   transform: translateY(-50%);
-  /* to add space around */
-  padding-inline: 20px;
 }
 
 .header-content .logo-link {
