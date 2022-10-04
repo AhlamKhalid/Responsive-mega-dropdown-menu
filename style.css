@@ -131,7 +131,11 @@ ul {
   background-color: var(--purple-800);
   margin-top: 14px;
   padding: 24px;
-  /* display: none; */
+  display: none;
+}
+
+.dropdown-container.show {
+  display: block;
 }
 
 .dropdown-list .dropdown-item {
