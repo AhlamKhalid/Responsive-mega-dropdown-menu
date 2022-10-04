@@ -92,7 +92,12 @@ ul {
   /* background-color: var(--purple-900); */
   padding: 24px;
   position: relative;
-  /* left: -100%; */
+  /* hide navigation menu */
+  left: -100%;
+}
+
+.navigation-menu.show {
+  left: 0;
 }
 
 .navigation-menu .nav-item {
