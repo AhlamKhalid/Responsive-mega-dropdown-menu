@@ -50,6 +50,24 @@ ul {
   justify-content: center;
 }
 
+.header .menu-button {
+  /* no space around the icon */
+  display: flex;
+}
+
+.header .menu-button.hide {
+  display: none;
+}
+
+.header .close-button {
+  display: none;
+}
+
+.header .close-button.show {
+  /* no space around the icon */
+  display: flex;
+}
+
 .header .menu-button,
 .header .close-button {
   position: absolute;
@@ -59,8 +77,6 @@ ul {
   transform: translateY(-50%);
   /* to add space around */
   padding-inline: 20px;
-  /* no space around the icon */
-  display: flex;
 }
 
 .header .logo-link {
