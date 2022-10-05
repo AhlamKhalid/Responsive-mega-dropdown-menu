@@ -61,51 +61,56 @@
     </header>
 
     <div id="navigation-menu" class="navigation-menu">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <button id="dropdown-trigger" class="nav-link">
-            <span>Explore</span>
-            <span
-              class="iconify"
-              data-icon="fe:arrow-down"
-              style="color: white"
-              data-width="10"
-              data-height="10"
-            ></span>
-          </button>
-          <div id="dropdown-container" class="dropdown-container">
-            <ul class="dropdown-list">
-              <li class="dropdown-item">
-                <a href="#" class="dropdown-link">Destinations</a>
-              </li>
-              <li class="dropdown-item">
-                <a href="#" class="dropdown-link">Apartments</a>
-              </li>
-              <li class="dropdown-item">
-                <a href="#" class="dropdown-link">Restaurants</a>
-              </li>
-              <li class="dropdown-item">
-                <a href="#" class="dropdown-link">villas</a>
-              </li>
-              <li class="dropdown-item">
-                <a href="#" class="dropdown-link">hotels</a>
-              </li>
-              <li class="dropdown-item">
-                <a href="#" class="dropdown-link">Resorts</a>
-              </li>
-              <li class="dropdown-item">
-                <a href="#" class="dropdown-link">High rated hotels</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Blog</a>
-        </li>
-      </ul>
+      <div class="max-width-container">
+        <!-- on screens < 768px -->
+        <ul class="nav-list">
+          <li class="nav-item">
+            <button id="dropdown-trigger" class="nav-link">
+              <span>Explore</span>
+              <span
+                class="iconify"
+                data-icon="fe:arrow-down"
+                style="color: white"
+                data-width="10"
+                data-height="10"
+              ></span>
+            </button>
+            <div id="dropdown-container" class="dropdown-container">
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Destinations</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Apartments</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Restaurants</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">villas</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">hotels</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Resorts</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">High rated hotels</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li>
+        </ul>
+        <!-- on screens >= 768px -->
+        <div class="mega-dropdown">hi</div>
+      </div>
     </div>
     <!-- iconify script -->
     <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script>
