@@ -215,6 +215,47 @@ ul {
   }
 
   .navigation-menu .mega-dropdown {
-    display: block;
+    /* to create two-columns layout */
+    display: flex;
+  }
+
+  .mega-dropdown .width-50 {
+    width: 50%;
+  }
+
+  .mega-dropdown .right-column {
+    border-left: 1px solid var(--purple-700);
+  }
+
+  .mega-dropdown .lists-container {
+    display: grid;
+    /* With auto-fit, the boxes will stretch as their horizontal size 
+    exceeds 150px to fill the entire remaining space. However, 
+    if you change it to auto-fill, they will not stretch when their base 
+    size in the minmax function is exceeded: */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    /* gap between columns & rows */
+    gap: 16px;
+    padding: 24px 16px 24px 0;
+  }
+
+  .list .list-header {
+    font-family: "Mukta", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+
+  .list .list-item {
+    margin-top: 5px;
+  }
+
+  .list .list-link {
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--white);
   }
 }
