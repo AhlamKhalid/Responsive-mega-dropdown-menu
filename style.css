@@ -174,10 +174,8 @@ ul {
 .thumbnails-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  padding: 24px 16px 24px 0;
-  border-top: 1px solid var(--purple-700);
+  gap: 70px;
+  padding: 24px 40px 24px 0;
 }
 
 .thumbnails-container .thumbnail-link {
@@ -245,6 +243,10 @@ ul {
   border: 1px solid var(--purple-700);
   border-radius: 8px;
   padding: 14px 16px;
+}
+
+.hotel-item .hotel-link:hover {
+  background-color: var(--purple-800);
 }
 
 .hotel-item .hotel-img {
@@ -326,8 +328,8 @@ ul {
   .mega-dropdown .lists-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    padding: 24px 16px 24px 0;
+    gap: 70px;
+    padding: 24px 40px 24px 0;
   }
 
   .list .list-header {
