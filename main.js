@@ -4,6 +4,9 @@ const closeButton = document.getElementById("close-button");
 const navigationMenu = document.getElementById("navigation-menu");
 const dropdownTrigger = document.getElementById("dropdown-trigger");
 const dropdownContainer = document.getElementById("dropdown-container");
+const dropdownArrow = document.getElementById("dropdown-arrow");
+const megaDropdownTrigger = document.getElementById("mega-dropdown-trigger");
+const megaDropdownArrow = document.getElementById("mega-dropdown-arrow");
 
 // event listeners
 menuButton.addEventListener("click", () => {
@@ -20,4 +23,10 @@ closeButton.addEventListener("click", () => {
 
 dropdownTrigger.addEventListener("click", () => {
   dropdownContainer.classList.toggle("show");
+  dropdownArrow.classList.toggle("flipped");
+});
+
+megaDropdownTrigger.addEventListener("click", () => {
+  navigationMenu.classList.toggle("show");
+  megaDropdownArrow.classList.toggle("flipped");
 });

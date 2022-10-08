@@ -48,7 +48,6 @@ ul {
 .max-width-container {
   max-width: 1440px;
   margin-inline: auto;
-  /* background: violet; */
 }
 
 /* full header with border */
@@ -109,7 +108,7 @@ ul {
   padding-block: 24px;
   position: relative;
   /* hide navigation menu */
-  /* left: -100%; */
+  left: -100%;
 }
 
 .navigation-menu.show {
@@ -136,6 +135,11 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding-inline: 24px;
+}
+
+.navigation-menu .dropdown-arrow.flipped,
+.header-content .nav-list .mega-dropdown-arrow.flipped {
+  transform: rotate(180deg);
 }
 
 .navigation-menu .mega-dropdown {
