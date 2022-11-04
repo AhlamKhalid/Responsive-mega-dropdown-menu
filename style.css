@@ -336,11 +336,9 @@ ul {
   }
 
   .list .list-header {
-    font-family: "Mukta", sans-serif;
     font-weight: 800;
     font-size: 16px;
     text-transform: uppercase;
-    color: var(--white);
     margin-bottom: 10px;
   }
 
@@ -349,8 +347,6 @@ ul {
   }
 
   .list .list-link {
-    font-family: "Mukta", sans-serif;
-    font-weight: 400;
     font-size: 14px;
     color: var(--white);
   }
