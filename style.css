@@ -184,7 +184,6 @@ ul {
 .thumbnails-container .thumbnail-link {
   width: 160px;
   height: 200px;
-  display: inline-block;
   position: relative;
 }
 
