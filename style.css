@@ -232,19 +232,19 @@ ul {
 
 .hotel-item {
   margin-top: 12px;
+  border: 1px solid var(--purple-700);
+  border-radius: 8px;
+}
+
+.hotel-item:hover {
+  background-color: var(--purple-800);
 }
 
 .hotel-item .hotel-link {
   display: flex;
   align-items: center;
   gap: 16px;
-  border: 1px solid var(--purple-700);
-  border-radius: 8px;
   padding: 14px 16px;
-}
-
-.hotel-item .hotel-link:hover {
-  background-color: var(--purple-800);
 }
 
 .hotel-item .hotel-img {
