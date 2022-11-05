@@ -255,15 +255,11 @@ ul {
 }
 
 .hotel-item .hotel-name {
-  font-family: "Mukta", sans-serif;
-  font-weight: 700;
   font-size: 14px;
   color: var(--white);
 }
 
 .hotel-item .hotel-description {
-  font-family: "Mukta", sans-serif;
-  font-weight: 400;
   font-size: 12px;
   color: var(--white);
 }
